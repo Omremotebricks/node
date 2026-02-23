@@ -14,7 +14,7 @@ app.get("/twitter", (req, res) => {
 app.get("/login", (req, res) => {
   res.send("<h1>Add Login</h1>");
 });
-app.get("hello", (req, res) => {
+app.get("/hello", (req, res) => {
   res.send("Jelloooo");
 });
 app.listen(port, () => {
